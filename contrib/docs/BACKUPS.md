@@ -97,7 +97,7 @@ backup 4 --period=2h
 ```
 This will set our backup with TAG=4 to have a period of 2 hours.
 ```
-backup /path/mega/folder --num-backups=1
+backup /path/mega/folder 4 --num-backups=2
 ```
 This will configure the backup to only keep one instance. 
 Notice that in order not to lose data, older instances will not be deleted until
